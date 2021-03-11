@@ -1,0 +1,8 @@
+print('hola')
+born_year = (input('Mikor születtél? '))
+# print (type(born_year))
+int(born_year)
+age = 2020 - int(born_year)
+print('Most ennyi éves vagy:', age)
+# print (f'Most ennyi éves vagy: {age}')
+print(f'Most {age} éves vagy :)')
