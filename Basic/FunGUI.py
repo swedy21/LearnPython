@@ -1,3 +1,5 @@
+# Small Funny GUI program
+
 picture = [
     [0, 0, 0, 1, 0, 0, 0],
     [0, 0, 1, 1, 1, 0, 0],
@@ -19,5 +21,3 @@ while item < len(picture):
             my_pic += '*'
     print('\n', my_pic)
     item += 1
-
-    print
